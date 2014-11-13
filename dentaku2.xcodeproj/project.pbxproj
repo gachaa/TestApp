@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5909062819488F14003DB9D5 /* sora.png in Resources */ = {isa = PBXBuildFile; fileRef = 5909062719488F14003DB9D5 /* sora.png */; };
 		59EAB83E192E0DA300465E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EAB83D192E0DA300465E74 /* Foundation.framework */; };
 		59EAB840192E0DA300465E74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EAB83F192E0DA300465E74 /* CoreGraphics.framework */; };
 		59EAB842192E0DA300465E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EAB841192E0DA300465E74 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5909062719488F14003DB9D5 /* sora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sora.png; sourceTree = "<group>"; };
 		59EAB83A192E0DA300465E74 /* dentaku2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dentaku2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EAB83D192E0DA300465E74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59EAB83F192E0DA300465E74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 				59EAB84C192E0DA300465E74 /* AppDelegate.h */,
 				59EAB84D192E0DA300465E74 /* AppDelegate.m */,
 				59EAB84F192E0DA300465E74 /* Main.storyboard */,
+				5909062719488F14003DB9D5 /* sora.png */,
 				59EAB852192E0DA300465E74 /* ViewController.h */,
 				59EAB853192E0DA300465E74 /* ViewController.m */,
 				59EAB855192E0DA300465E74 /* Images.xcassets */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5909062819488F14003DB9D5 /* sora.png in Resources */,
 				59EAB856192E0DA300465E74 /* Images.xcassets in Resources */,
 				59EAB848192E0DA300465E74 /* InfoPlist.strings in Resources */,
 				59EAB851192E0DA300465E74 /* Main.storyboard in Resources */,
@@ -456,6 +460,7 @@
 				59EAB86E192E0DA300465E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59EAB86F192E0DA300465E74 /* Build configuration list for PBXNativeTarget "dentaku2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				59EAB871192E0DA300465E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
